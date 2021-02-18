@@ -2,9 +2,13 @@ import React from 'react';
 
 import { Grid } from './style'
 
+import ServerList from '../ServerList/index'
+
 const Layout: React.FC = () => {
     return (
-        <Grid />
+        <Grid>
+            <ServerList />
+        </Grid>
     )
 }
 
