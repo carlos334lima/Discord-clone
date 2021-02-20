@@ -1,5 +1,7 @@
 import React from 'react'
 
+import ServerButton from '../ServerButton/index'
+
 import { Container, Separator } from './style'
 
 const ServerList: React.FC = () => {
@@ -25,4 +27,4 @@ const ServerList: React.FC = () => {
     
 }
 
-export default Container;
+export default ServerList;

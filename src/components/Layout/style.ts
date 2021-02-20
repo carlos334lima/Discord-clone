@@ -1,23 +1,22 @@
 import styled from 'styled-components';
 
-// SL - server list 
-// SN - server name
-// CI - channel info
-// CL - channel list
-// CD - channel data
-// UI - user info
+// SL - Server List
+// SN - Server Name
+// CI - Channel Info
+// CL - Channel List
+// CD - Channel Data
+// UI - User Info
 
 export const Grid = styled.div`
+  display: grid;
 
-    display: grid;
+  grid-template-columns: 71px 240px auto 240px;
+  grid-template-rows: 46px auto 52px;
 
-    grid-template-columns: 71px 240px auto 240px;
-    grid-template-rows:46px auto 52px;
-    grid-area: 
-            'SL SN CI CI'
-            'SL CL CD UL'
-            'SL UI CI UL';
+  grid-template-areas:
+    'SL SN CI CI'
+    'SL CL CD UL'
+    'SL UI CD UL';
 
-    height: 100vh
-
+  height: 100vh;
 `;
